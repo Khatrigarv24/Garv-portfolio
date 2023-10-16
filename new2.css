@@ -1,0 +1,251 @@
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(359deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #090057;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #0F4392;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 0 23px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    color: rgb(208, 93, 11);
+    font-size: 1.2rem;
+}
+
+main hr {
+    border: 0;
+    background: rgb(208, 93, 11);
+    height: 1px;
+    margin: 40px 270px;
+}
+
+footer {
+    background-color: rgb(208, 93, 11);
+}
+
+.left {
+    font-size: 2.5rem;
+    float: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstsection>div {
+    width: 40%;
+}
+
+.leftsection {
+    font-size: 3rem;
+    margin: auto;
+}
+
+.rightsection img {
+    animation: rotation 5s none;
+    width: 80%;
+    transition: all ease .5s;
+}
+
+.rightsection img:hover {
+    scale: 1.2;
+    filter: invert();
+}
+
+.purple {
+    color: #f05D23;
+    font-weight: bold;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 2.4rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.orange {
+    font-size: 1.3rem;
+    color: #f05D23;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    background: rgb(238, 118, 7);
+    width: 80vw;
+    height: 2px;
+    margin: 100px auto;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 90px;
+    width: 1px;
+    background: rgb(238, 118, 7);
+    margin: 0 200px;
+}
+
+.top-image {
+    animation: rotation 3s infinite linear;
+    width: 70px;
+    position: relative;
+    top: -80px;
+    left: -35px;
+}
+
+.top-image2 {
+    animation: rotation 3s infinite linear;
+    width: 50px;
+    position: relative;
+    top: -75px;
+    left: -20px;
+}
+
+.top-image3 {
+    animation: rotation 3s infinite linear;
+    width: 100px;
+    position: relative;
+    top: -60px;
+    left: -60px;
+}
+
+.vertical-text {
+    width: 100px;
+    position: relative;
+    top: 16px;
+    left: -30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.vertical-desc {
+    width: 100px;
+    position: relative;
+    top: 49px;
+    left: -30px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+.vertical-text2 {
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: -30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.vertical-desc2 {
+    width: 100px;
+    position: relative;
+    top: 53px;
+    left: -30px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+.vertical-text3 {
+    position: relative;
+    top: 60px;
+    left: -32px;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.vertical-desc3 {
+    position: relative;
+    top: 85px;
+    left: -30px;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #0F4392;
+}
+
+.first {
+    font-size: 1.7rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.second {
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.third {
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.fourth {
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.image {
+    margin: auto;
+    padding-top: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+.github:link {
+    color: rgb(93, 13, 14);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#element {
+    color: #f05D23;
+    font-weight: bold;
+}
